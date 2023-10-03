@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 1200px;
+    margin-top: 100px;
+
+}
+.navbar {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.navbar__logo {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.navbar__links {
+    display: flex;
+}
+.navbar__links__page {
+    padding: 0 10px;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.navbar__links__page:hover {
+    color: white;
+}
+
+.navbar__links__page:active {
+    color: white;
+}
+
+.navbar__links__razdel {
+    color:gray;
+}
+.loader__place {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.product__image {
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product__price {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.product__cards{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.product__button {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    text-align: center;
+}
+
+.button__info {
+    padding: 5px;
+    margin: 5px;
+}
+
+.product__button__close {
+    background-color: dodgerblue;
+}
+
+.product__button__open {
+    background-color: orange;
+}
+
+.home__page {
+    margin-top: 80px;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 60px;
+
+
+}
+
+.footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: lightpink;
+    text-align: center;
+
+}
